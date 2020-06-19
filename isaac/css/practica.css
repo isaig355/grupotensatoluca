@@ -1,0 +1,34 @@
+/* aqui empieza la barrra de navegacion  */
+.nav-menu{
+    display: inline-block;
+    background: burlywood;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+.nav-menu:hover{
+    background: cadetblue;
+}
+nav{
+    background: peru;
+    padding: 10px;
+
+}
+/* aqui termina la barrra de navegacion  */
+
+
+
+
+
+
+
+.columna{
+    background: purple;
+    color: seashell;
+    padding: 20px;
+    width: 20%;
+    margin: 10PX;
+}
+section{
+    display: flex;
+    margin: auto;
+}

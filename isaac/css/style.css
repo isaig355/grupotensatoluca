@@ -1,0 +1,45 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.input-group{
+width: 500px;
+left: 100px;
+}
+
+.navbar-brand{
+    width: 200px;
+}
+
+.img-fluid{
+    padding-bottom:60px;
+ 
+}
+
+.card{
+    margin:30px;
+    
+}
+
+.card-img-top{
+    padding: 10px;
+    margin: auto;
+    width: 200px; 
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+body{
+    background-color: #6e5773;
+}
+
+footer{
+    background-color: #393e46;
+    color: white;
+}
+
+.img-fluid{
+    border-radius: 10px;
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <title>Bootstrap y CSS </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="./img/ico.webp" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      <a class="navbar-brand " href="#">
+        <img src="./img/icono.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+        Game Store
+      </a>
+
+
+      <div class="input-group mb-">
+        <input type="text" class="form-control" placeholder="Search">
+        <div class="input-group-append">
+          <button class="btn btn-success" type="submit">Go</button>
+        </div>
+      </div>
+
+     
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+               Inico <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          
+            <a class="nav-link" href="#">
+              Shop <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeria </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Top 5 juegos </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Juegos</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <img src="./img/1.jpg" class="img-fluid" alt="Responsive image">
+
+  
+      <h2 class="text-center">Lista de juegos</h2>
+
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card " style="width: 18rem;">
+          <img src="./img/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Titulo Juego</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Mas info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/7.jpg" class="card-img-top" alt="...">
+          <div class="card-body  bg-dark text-white">
+            <h5 class="card-title">Titulo Juego</h5>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Mas info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Titulo Juego</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Mas info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/5.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Titulo Juego</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Mas info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/6.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Titulo Juego</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Mas info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="">1</a></li>
+        <li class="page-item"><a class="page-link" href="">2</a></li>
+        <li class="page-item"><a class="page-link" href="">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <h2 class="text-center">Galeria de imagenes </h2>
+
+    <div class="page-footer font-small mdb-color lighten-3 pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+      <!--Grid row-->
+        <div class="row">    
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-12 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a1.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a2.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a3.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-12 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a4.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a5.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="./img/a6.jpg" class="img-fluid"
+                alt="">
+              <a href="">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+    
+  </body>
+  <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p>Esta es una pagina de prueba para la el desarrollo y maquetado de una pagina web. Por Gomez Morales Isaac Isai Gurpo 93</p>
+
+      </div>
+      <!-- Grid column -->
+
+     
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Inicio</a>
+          </li>
+          <li>
+            <a href="#!">Juegos</a>
+          </li>
+          <li>
+            <a href="#!">Shop</a>
+          </li>
+          <li>
+            <a href="#!">Top 5 juegos</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contactame</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            Nombre
+            <input type="text">
+          </li>
+          <li>
+            Correo
+            <input type="mail">
+          </li>
+          <li>
+            Asunto 
+            <input type="text">
+          </li>
+          <li>
+            Mensaje
+            <input type="texttarea">
+          </li>
+
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+
+
+  <hr>
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+        <i class="fab fa-google-plus-g"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-li mx-1">
+        <i class="fab fa-linkedin-in"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1">
+        <i class="fab fa-dribbble"> </i>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 UTVT Isaac isai:
+
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html>
